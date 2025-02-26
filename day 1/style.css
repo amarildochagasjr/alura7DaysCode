@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.teste {
+   background-color: cadetblue;
+   margin-top: 10%;
+   padding-top: 0.75%;
+   padding-bottom: 0.75%;
+   width: 6rem;
+   border: 2px solid darkslategrey;
+   border-radius: 15%;
+   font-size: 1.25rem;
+   font-weight: bolder;
+   color: darkslategray;
+   text-align: center;
+}
+
+.teste:hover {
+    background-color: darkslategrey;
+    border: 2px solid cadetblue;
+    color: cadetblue;
+}
